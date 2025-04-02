@@ -32,16 +32,12 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'VEX Docs',
       logo: {
         alt: 'VEX Logo',
         src: 'img/logo.svg',
         style: {
-          height: '32px', // Increase this value to your preferred size
-          marginRight: '10px',
           verticalAlign: 'middle',
           position: 'relative',
-          top: '1px', // Fine-tune this value if needed
         },
       },
       items: [

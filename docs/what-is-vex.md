@@ -1,8 +1,8 @@
 ---
 id: what-is-vex
 title: What is VEX?
-sidebar_label: What is VEX?
-slug: /
+sidebar_label: what is VEX?
+slug: /what-is-vex
 ---
 
 # What is VEX?
