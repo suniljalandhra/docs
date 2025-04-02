@@ -1,0 +1,147 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Primary VEX brand color (B3D92A) and its variations */
+  --ifm-color-primary: #b3d92a;
+  --ifm-color-primary-dark: #a1c325;
+  --ifm-color-primary-darker: #98b822;
+  --ifm-color-primary-darkest: #7d981c;
+  --ifm-color-primary-light: #bbde3e;
+  --ifm-color-primary-lighter: #c0e14c;
+  --ifm-color-primary-lightest: #cce76f;
+  
+  /* Secondary styling colors */
+  --ifm-background-color: #ffffff;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #1f1e20;
+  
+  /* Font and code styling */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(179, 217, 42, 0.1);
+  
+  /* Additional custom variables */
+  --ifm-secondary-color: #1f1e20;
+  --vex-secondary-light: #2d2c2e;
+  --vex-accent-color: #e1f2a2;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* Primary VEX brand color (B3D92A) and variations - slightly adjusted for dark mode */
+  --ifm-color-primary: #b3d92a;
+  --ifm-color-primary-dark: #a1c325;
+  --ifm-color-primary-darker: #98b822;
+  --ifm-color-primary-darkest: #7d981c;
+  --ifm-color-primary-light: #bbde3e;
+  --ifm-color-primary-lighter: #c0e14c;
+  --ifm-color-primary-lightest: #cce76f;
+  
+  /* Dark mode backgrounds */
+  --ifm-background-color: #1f1e20;
+  --ifm-navbar-background-color: #1f1e20;
+  
+  /* Text colors for dark mode */
+  --ifm-font-color-base: #e6e6e6;
+  --docusaurus-highlighted-code-line-bg: rgba(179, 217, 42, 0.2);
+  
+  /* Additional custom variables */
+  --vex-secondary-light: #e6e6e6;
+  --vex-accent-color: #e1f2a2;
+}
+
+/* Navbar styling */
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Make links more visible in dark mode */
+[data-theme='dark'] .navbar__link,
+[data-theme='dark'] .footer__link-item {
+  color: var(--vex-accent-color);
+}
+
+/* Code blocks styling */
+.prism-code {
+  border-radius: 8px;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+/* Button styling */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-secondary-color);
+  font-weight: bold;
+}
+
+/* Card styling for better visual hierarchy */
+.card {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer custom styling */
+.footer {
+  background-color: var(--ifm-footer-background-color);
+  color: var(--vex-accent-color);
+  padding: 2rem 0;
+}
+
+/* Sidebar active items */
+.menu__link--active {
+  font-weight: bold;
+}
+
+/* Table styling */
+table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+th {
+  background-color: var(--ifm-color-primary-darker);
+  color: var(--ifm-background-color);
+}
+
+[data-theme='dark'] th {
+  background-color: var(--ifm-color-primary-darkest);
+  color: var(--ifm-background-color);
+}
+
+/* Callout box styling */
+.admonition {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+/* Add some custom spacing utilities */
+.vex-mt-1 {
+  margin-top: 0.5rem;
+}
+
+.vex-mt-2 {
+  margin-top: 1rem;
+}
+
+.vex-mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.vex-mb-2 {
+  margin-bottom: 1rem;
+}
