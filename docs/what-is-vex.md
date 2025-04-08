@@ -1,19 +1,3 @@
----
-id: what-is-vex
-title: What is VEX?
-sidebar_label: what is VEX?
-slug: /what-is-vex
----
+VEX is an exchange that brings the speed of off-chain trading with the security and transparency of blockchains — solving what both DEXs and CEXs couldn’t.  
 
-# What is VEX?
-
-VEX (Verifiable Exchange) is a cutting-edge trading platform designed to provide transparent, verifiable, and secure exchange services for digital assets.
-
-## Key Features
-
-- **Verifiable Transactions**: All transactions on VEX can be independently verified.
-- **Transparent Operations**: Our order matching and settlement processes are fully transparent.
-- **Secure Infrastructure**: State-of-the-art security measures to protect your assets.
-- **User-Friendly Interface**: Easy-to-use platform for both beginners and experienced traders.
-
-[Get started with VEX](/getting-started/signing-up)
+At it's core it uses off-chain orderbooks that are fully verifiable on-chain with zk-proofs, processing 8000+ transactions per second - per pair, supporting native asset-to-asset trading, while remaining fully non-custodial.
