@@ -1,3 +1,9 @@
+---
+id: Order_Management_System
+title: Order Management System
+sidebar_position: 5
+---
+
 # Order Management System (OMS)
 
 The **Order Management System (OMS)** is the central brain of the exchange. It handles the complete lifecycle of every order—receiving, validating, risk-checking, routing, and updating positions. The OMS is optimized for sub-millisecond processing at scale.

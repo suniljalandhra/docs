@@ -1,3 +1,9 @@
+---
+id: System_Overview
+title: System Overview
+sidebar_position: 2
+---
+
 # System Overview
 
 The exchange is built using a modular, low-latency architecture optimized for high-frequency and institutional trading. It is composed of several core subsystems, each designed to operate independently while maintaining efficient communication with others through a combination of IPC (inter-process communication) and UDP.

@@ -43,7 +43,7 @@ const config: Config = {
       items: [
         {
           type: 'doc',
-          docId: 'what-is-vex',
+          docId: 'What-is-vex',
           position: 'left',
           label: 'Documentation',
         },
@@ -62,7 +62,7 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/getting-started/signing-up',
+              to: '/Getting-started/Signing-up',
             },
             {
               label: 'Exchange Design',

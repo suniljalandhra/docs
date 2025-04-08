@@ -1,3 +1,9 @@
+---
+id: Market_Data_Infrastructure
+title: Market Data Infrastructure
+sidebar_position: 10
+---
+
 # Market Data Infrastructure
 
 The Market Data Infrastructure is responsible for distributing real-time updates to connected clients. These updates include price changes, order book depth, and recent trades.

@@ -1,3 +1,9 @@
+---
+id: User_Interaction_Layer
+title: User Interaction Layer
+sidebar_position: 3
+---
+
 # User Interaction Layer
 
 The user interaction layer serves as the primary entry point into the exchange system. It handles external client connections, processes incoming trading requests, and ensures that only valid, authenticated traffic reaches the core systems. This layer is built to support both REST and FIX protocols to accommodate a wide range of clients—from browser-based traders to institutional algorithmic systems.

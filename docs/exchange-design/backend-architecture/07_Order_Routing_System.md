@@ -1,3 +1,9 @@
+---
+id: Order_Routing_System
+title: Order Routing System
+sidebar_position: 7
+---
+
 # Order Routing System
 
 The **Order Routing System** is responsible for directing validated orders from the OMS to the appropriate Matching Engine. It ensures that each order reaches the correct destination based on the trading pair (e.g., BTC/USDC, ETH/USDC).

@@ -1,3 +1,9 @@
+---
+id: Order_Flow_Lifecycle
+title: Order Flow Lifecycle
+sidebar_position: 6
+---
+
 # Order Flow Lifecycle
 
 The order flow lifecycle describes the path a trading order takes from submission to execution and final reporting. Each stage in the lifecycle ensures the order is valid, secure, and processed with full compliance and integrity.

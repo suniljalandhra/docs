@@ -1,3 +1,9 @@
+---
+id: Client_Gateway
+title: Client Gateway
+sidebar_position: 4
+---
+
 # Client Gateway
 
 The **Client Gateway (CG)** is a stateless, high-speed microservice that sits between external clients and the internal core of the exchange. It is responsible for validating incoming requests before they reach sensitive components like the Order Management System (OMS). Multiple CG instances can be deployed in parallel to support scaling and redundancy, and they are typically accessed through a Load Balancer.

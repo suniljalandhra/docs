@@ -1,3 +1,8 @@
+---
+id: Introduction
+title: Introduction
+sidebar_position: 1
+---
 # Introduction
 
 This document explains the core architecture of our provable crypto exchange.
