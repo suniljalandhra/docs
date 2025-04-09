@@ -40,7 +40,7 @@ module.exports = {
         }
       ],
     },
-    'Faq',
+    'faq',
     'referrals',
     'membership',
     'brand-kit',

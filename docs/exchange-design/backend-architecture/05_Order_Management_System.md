@@ -36,7 +36,6 @@ Once an order passes through the Customer Gateway, it is forwarded to the OMS, w
 
 - **Risk Engine**: Evaluates the user's available balance and current exposure.
 - **Risk Cache**: Holds recent risk state data for low-latency access.
-- **Position Keeper**: Manages real-time updates to open positions.
 - **OrderBook Interface**: Coordinates with the engine's order book via the router.
 
 The OMS is also responsible for ensuring that every incoming order goes through a consistent, audit-ready flow before reaching the matching layer. This ensures integrity, consistency, and compliance in trading operations.
