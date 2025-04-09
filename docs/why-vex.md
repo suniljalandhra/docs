@@ -1,8 +1,12 @@
-VEX is a verifiable exchange specifically built to solve the contradiction in crypto trading between performance and security. As for the longest time, exchanges have had fundamental flaws in how they were designed.
+Every financial exchange is typically built on 2 core components:
 
-**Our vision: The future is Verifiable, Secure and Performant**
+1. Trade matching: which brings together supply and demand for different assets (Orderbooks/AMMs/Intents).
 
-As centralized exchanges continue to get hacked and on-chain exchanges struggle with performance and MEV, we believe the future of trading is verifiable. A future where every transaction is secured with zk-proofs, performance is no longer limited by blockchain bottlenecks, and every trade is provably safe and verifiable on-chain.
+2. Trade settlement: which settles all trades (Banks and Blockchains). 
+
+Historically and even today, all traditional financial exchanges still have both components centralized. With the rise of blockchains and crypto, the industry saw a change: Centralized exchanges continued the traditional model while decentralized exchange moved both trade matching and settlement on blockchain.  
+
+But this evolution introduced issues like: 
 
 **The Trust Problem with Centralized Exchanges**
 
@@ -30,7 +34,9 @@ Existing exchanges often require assets to be wrapped in chain-specific tokens, 
 
 - Complexity for users dealing with multiple asset versions
 
-This is why VEX was created — to address all these bottlenecks through: 
+**Why VEX exists?**
+
+VEX was created to specifically built to solve the contradiction in crypto trading: performance v/s security. As for the longest time, exchanges have been forced to compromise one for the other. And here's how VEX changes that:  
 
 **1. Provable Orderbooks**
 
@@ -44,3 +50,6 @@ Funds remain fully under your control at all times. Trading permissions are dele
 
 Because VEX operates off-chain, it isn't bound by blockchains to offer wrapped tokens. You can trade any native token with any native token, with native settlement on their respective chains.
 
+**Our vision: The future is Verifiable, Secure and Performant.**
+
+As centralized exchanges continue to get hacked and DEXs struggle with performance and MEV, we believe the future of trading is verifiable. A future where every transaction is secured with zk-proofs, performance is no longer limited by blockchain bottlenecks, and every trade is provably safe and verifiable on-chain.
