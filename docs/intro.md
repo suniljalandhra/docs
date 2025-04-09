@@ -1,47 +1,10 @@
----
-sidebar_position: 1
----
 
-# Tutorial Intro
+**The future of exchanges is ZK.**
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Zero-knowledge proofs are one of the most critical technologies driving blockchain scalability and privacy — and now, we're bringing them to exchanges. As historically, building ZKP systems was extremely complicated, requiring deep cryptographic expertise and years to reach production. But now, ZK is here to truly reshape how traders interact with exchanges — and VEX is here to prove it. 
 
-## Getting Started
+VEX is a Verifiable Exchange created for high speed trading environment while being secure and transparent through blockchains and zk-proofs. At its core, VEX uses off-chain orderbooks that are fully verifiable on-chain through zero-knowledge proofs, processing over 8,000 transactions per second per trading pair, supporting native asset-to-asset swaps, and remaining fully non-custodial by design.
 
-Get started by **creating a new site**.
+Built to set the new foundation for trading, VEX brings the scalable, trustless experience — combining near-instant performance, full on-chain verifiability and universal native asset support. The future of trading isn't just decentralized. It's verifiable. And it's already here.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
