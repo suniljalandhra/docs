@@ -20,8 +20,6 @@ module.exports = {
       type: 'category',
       label: 'Exchange Design',
       items: [
-        'exchange-design/order-matching',
-        'exchange-design/order-settlement',
         {
           type: 'category',
           label: 'Backend Architecture',
@@ -37,7 +35,17 @@ module.exports = {
             'exchange-design/backend-architecture/Post_Trade_Operations',
             'exchange-design/backend-architecture/Market_Data_Infrastructure',
           ]
-        }
+        },
+        {
+          type: 'category',
+          label: 'Order Matching',
+          items: [
+            'exchange-design/order-matching/Introduction',
+            'exchange-design/order-matching/Orderbook',
+            'exchange-design/order-matching/Provable_Orderbook',
+          ]
+        },
+        'exchange-design/order-settlement',
       ],
     },
     'faq',
