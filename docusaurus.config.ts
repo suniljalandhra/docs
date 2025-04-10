@@ -43,12 +43,12 @@ const config: Config = {
       items: [
         {
           type: 'doc',
-          docId: 'What-is-vex',
+          docId: 'Intro',
           position: 'left',
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/trade-vex/vex-docs',
+          href: 'https://github.com/trade-vex',
           label: 'GitHub',
           position: 'right',
         },

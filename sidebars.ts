@@ -1,7 +1,7 @@
 // sidebars.ts
 module.exports = {
   docsSidebar: [
-    'What-is-vex',
+    'Intro',
     'Why-vex',
     'Vex-vs-other-exchanges',
     {
