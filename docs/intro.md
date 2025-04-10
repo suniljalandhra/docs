@@ -3,7 +3,9 @@ VEX is a Verifiable Exchange created for high-speed trading, where near-instant 
 
 **The future of trading is powered by ZK.**
 
-Zero-knowledge proofs are one of the most critical technologies driving blockchain scalability and privacy — and now, we're bringing them to trading. Historically, building ZKP systems was extremely complicated, requiring deep cryptographic expertise and years to reach production. Today, ZK is ready to go mainstream - delivering speed, security, and verifiability without compromise.
+Zero-knowledge proofs have long been recognized as a critical breakthrough for blockchain scalability and privacy. For years, the technology remained largely theoretical — discussed in research papers but difficult to implement in real-world systems due to its complexity. Following significant advancements, although still challenging, VEX brings zero-knowledge proofs into its infrastructure, applying them at scale to guarantee transparent, trustless trading without compromising performance.
+
+
 
 
 
