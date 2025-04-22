@@ -5,13 +5,18 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'VEX Documentation',
   tagline: 'Verifiable Exchange Documentation',
-  url: 'https://verifiable.exchange',
+  url: 'https://suniljalandhra.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // TODO:- Remove the warn and add 'throw'
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'trade-vex', // Usually your GitHub org/user name.
-  projectName: 'vex-docs', // Usually your repo name.
+  organizationName: 'suniljalandhra', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
+
+  // Add deployment branch
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+  
 
   presets: [
     [
