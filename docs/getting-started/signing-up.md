@@ -1,3 +1,9 @@
+---
+id: Signing-up
+title: Signing Up
+sidebar_position: 1
+---
+
 **Signing up with Email:**
 
 The first step to start trading on VEX is signing up with your email. 

@@ -1,3 +1,9 @@
+---
+id: Portfolio-page
+title: Portfolio Page
+sidebar_position: 4
+---
+
 **Your Trading Journey, All in One Place.**
 
 **1. Total holdings:** View the total value of your portfolio, combining your deposited funds and earnings over time. Toggle between daily, weekly, monthly, 6-month, or all-time views. 

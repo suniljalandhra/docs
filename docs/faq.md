@@ -1,4 +1,7 @@
-**FAQs**
+---
+id: faq
+title: FAQs
+---
 
 **1. How decentralized is VEX?**
 

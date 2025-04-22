@@ -1,3 +1,9 @@
+---
+id: Trading-on-vex
+title: Trading On Vex
+sidebar_position: 2
+---
+
 **The trading terminal at VEX is made of 3 major components:**
 
 **1. Orderbook:** Shows real-time price movements of an asset.

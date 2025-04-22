@@ -1,3 +1,9 @@
+---
+id: Why-vex
+title: Why Vex
+---
+
+
 Every financial exchange is typically built on 2 core components:
 
 1. Trade matching: which brings together supply and demand for different assets (Orderbooks/AMMs/Intents).
